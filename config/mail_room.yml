@@ -1,11 +1,9 @@
 ---
 :mailboxes:
   -
-    :email: ""
-    :password: ""
+    :email: "user@gmail.com"
+    :password: "password"
     :name: "inbox"
-    # :delivery_method: letter_opener
-    # :location: "/tmp/tpitale-email"
     :delivery_method: postback
     :delivery_url: "http://localhost:3000/email"
     :delivery_token: ""
