@@ -27,7 +27,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'faraday'
+gem 'faraday', :git => "git://github.com/lostisland/faraday.git"
 gem 'mail_room', :git => "git://github.com/tpitale/mail_room.git"
 
 group :doc do
