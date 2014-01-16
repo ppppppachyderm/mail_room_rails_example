@@ -28,7 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'faraday'
-gem 'mail_room', :git => "git://github.com/tpitale/mail_room.git"
+gem 'mail_room'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
