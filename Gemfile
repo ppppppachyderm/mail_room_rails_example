@@ -33,8 +33,14 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'faraday', :git => "git://github.com/lostisland/faraday.git"
-gem 'mail_room', :git => "git://github.com/tpitale/mail_room.git"
+gem 'mail'
+gem 'letter_opener'
+gem 'faraday', github: 'lostisland/faraday'
+gem 'mail_room', github: 'tpitale/mail_room'
+
+group :development do
+  gem 'foreman'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
