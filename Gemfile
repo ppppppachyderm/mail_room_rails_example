@@ -8,10 +8,6 @@ gem 'letter_opener'
 gem 'faraday', github: 'lostisland/faraday'
 gem 'mail_room', github: 'tpitale/mail_room'
 
-<<<<<<< HEAD
-group :development do
-  gem 'foreman'
-=======
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
